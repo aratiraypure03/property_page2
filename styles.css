@@ -788,6 +788,72 @@ header nav ul li a:hover {
         font-size: 1.5rem; /* Adjust title size for smaller screens */
     }
 }
+.card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+.mortgage-calculator__graph .graph-item {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767.98px) {
+    .mortgage-calculator__form .row .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+/* Ensures proper spacing and alignment for the rating stars */
+.rating {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Adjusts the spacing between the star icons */
+.rating i {
+    margin-right: 0.25rem;
+}
+
+/* Ensures the form and other elements have consistent margins and padding */
+.form--review-product .form-group {
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 767.98px) {
+    .property_block_wrap_header p {
+        font-size: 0.875rem; /* Reduces font size for better readability on small screens */
+    }
+    .property_block_wrap_header h4 {
+        font-size: 1.25rem; /* Adjusts header size */
+    }
+    .property_block_wrap .row {
+        padding: 1rem; /* Adds padding inside the review block */
+    }
+    .property_block_wrap .col-md-8 {
+        margin-bottom: 1rem; /* Adds bottom margin for spacing */
+    }
+}
 
   
   
